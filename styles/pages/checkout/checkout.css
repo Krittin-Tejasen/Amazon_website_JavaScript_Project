@@ -21,6 +21,7 @@
     grid-template-columns: 1fr 350px;
     column-gap: 12px;
     align-items: start;
+    align-content: start;
 }
 
 
@@ -36,11 +37,11 @@
 }
 
 .payment-summary {
-    padding-bottom: 5px;
     position: sticky;
-    top: 60px;
-    
-
+    top: 59px; 
+    align-self: start;
+    z-index: 10; 
+    background-color: white; 
 }
 
 
